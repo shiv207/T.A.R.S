@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Body styling */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Main title styling */
+h1 {
+  color: #fcfcfc;
+}
+
+/* Main chat section styling */
+div[data-testid="stBlockContainer"] {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Submit button styling in the chat section */
+div[data-testid="stBlock"] button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Text input styling in the chat section */
+div[data-testid="stTextInput"] input {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Prompt text styling in the chat section */
+div[data-testid="stText"] {
+  font-size: 18px;
+  color: #333;
+}
+
+/* iOS-like sidebar styling */
+div[data-testid="stSidebar"] {
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Sidebar title styling */
+div[data-testid="stSidebar"] .css-1dbjc4n {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+/* Widget styling */
+div[data-testid="stWidget"] {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Widget title styling */
+div[data-testid="stWidget"] .css-1dbjc4n {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+/* Widget content styling */
+div[data-testid="stWidget"] .css-16s0x24 {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Rounded edges for images */
+div[data-testid="stImage"] img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* iTunes-like styling for music feature */
+div[data-testid="stWidget"][data-oh="stWidget"] {
+  background-color: #000;
+  color: #fff;
+}
+
+/* iTunes-like styling for song names */
+div[data-testid="stWidget"][data-oh="stWidget"] .css-16s0x24 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* iTunes-like styling for album covers */
+div[data-testid="stWidget"][data-oh="stWidget"] .css-1dbjc4n img {
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  object-fit: contain; /* Maintain aspect ratio without stretching */
+}
